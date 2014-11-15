@@ -7,24 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		615470091B1373F1882C48FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61547D32042ADED968A4E528 /* main.m */; };
-		6154730759CD0A6A9FB9F993 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6154769908B83294A2CB5B6B /* ViewController.m */; };
-		6154738A1D9E38732BD25B4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6154756CDDCB3B8FF4F9D5EC /* Main.storyboard */; };
-		615475B4D7EEE431B44B1262 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 615477EDAFB7A64A35CD94DE /* Images.xcassets */; };
-		61547752552071B822FF37A8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 615473991D32EBE703235E58 /* LaunchScreen.xib */; };
-		6154786BDA3DE194A211DDD9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61547126E574A942FA96A78E /* AppDelegate.m */; };
+		29612A601A17773F0082BD02 /* libjson-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29612A5F1A17773F0082BD02 /* libjson-iOS.a */; };
+		615472586DB0C225710CBE13 /* SampleSemanticAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 61547331AB90D54C9E564B00 /* SampleSemanticAction.m */; };
+		615473CA8638A6455A5ECE26 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6154742E18837F9AC2D52B17 /* Images.xcassets */; };
+		615474E8076EE77764BBF46B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61547C30DCA4E5C65B0BC3B0 /* Main.storyboard */; };
+		6154751DE7CB55FF91C5FE89 /* ViewControllerJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 61547C821099AC9EFCBB8F22 /* ViewControllerJSON.m */; };
+		6154778F5DC88D28AD0F3CF4 /* TickTock.m in Sources */ = {isa = PBXBuildFile; fileRef = 61547D4F8E3E7F539F439F97 /* TickTock.m */; };
+		615477C541567F2359A9E059 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61547D0AD755DC1780FA7614 /* main.m */; };
+		61547809C82CC5AB03D5820F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 615474C7114A688255F857BA /* LaunchScreen.xib */; };
+		61547D6EA4C598BDC962EC5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 615477101C546FAB13EA292F /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		61547126E574A942FA96A78E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6154720899AF5D5EAB2E8B78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		6154769908B83294A2CB5B6B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		615477EDAFB7A64A35CD94DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		61547ADB0C575710F204E104 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		61547B7CCB8F7FB8A461A1AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
-		61547C0FF4238BFC0020C737 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		61547D32042ADED968A4E528 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		61547EE7515FA1648F527F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29612A5F1A17773F0082BD02 /* libjson-iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libjson-iOS.a"; path = "../JPJson/Libraries/iOS Libraries/build/Debug-iphoneos/libjson-iOS.a"; sourceTree = "<group>"; };
+		6154727EE291713EE9273AFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		615472843F433428A2171F4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61547331AB90D54C9E564B00 /* SampleSemanticAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleSemanticAction.m; sourceTree = "<group>"; };
+		6154733B410D932A3541F123 /* ViewControllerJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerJSON.h; sourceTree = "<group>"; };
+		61547412387D83E9D11A3C3C /* TickTock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TickTock.h; sourceTree = "<group>"; };
+		6154742E18837F9AC2D52B17 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		615477101C546FAB13EA292F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		615477918BB0FCFB62D14E8B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		61547859220880C63D5DD2AA /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		61547889D2E4642B41385B91 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		61547A853B1FB88E1338C5DA /* SampleSemanticAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleSemanticAction.h; sourceTree = "<group>"; };
+		61547C821099AC9EFCBB8F22 /* ViewControllerJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerJSON.m; sourceTree = "<group>"; };
+		61547D0AD755DC1780FA7614 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61547D4F8E3E7F539F439F97 /* TickTock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TickTock.m; sourceTree = "<group>"; };
+		61547D95546B4F37F7776E06 /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
 		61547FDFDBD65157554AC630 /* Leak-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Leak-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -33,12 +43,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29612A601A17773F0082BD02 /* libjson-iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6154714083A128453AFEE931 /* Leak-Sample */ = {
+			isa = PBXGroup;
+			children = (
+				61547BDBBFFB434A55CFDBFB /* Supporting Files */,
+				6154742E18837F9AC2D52B17 /* Images.xcassets */,
+				615474C7114A688255F857BA /* LaunchScreen.xib */,
+				615477918BB0FCFB62D14E8B /* AppDelegate.h */,
+				615477101C546FAB13EA292F /* AppDelegate.m */,
+				61547C30DCA4E5C65B0BC3B0 /* Main.storyboard */,
+				61547C2108DA1C197479D180 /* JPJSON Samples */,
+			);
+			path = "Leak-Sample";
+			sourceTree = "<group>";
+		};
 		61547277CE70710583A34EFF /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -47,35 +72,36 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		615478CCC8E5F0200DE45644 /* Supporting Files */ = {
+		61547BDBBFFB434A55CFDBFB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				61547B7CCB8F7FB8A461A1AE /* Info.plist */,
-				61547D32042ADED968A4E528 /* main.m */,
+				61547889D2E4642B41385B91 /* Info.plist */,
+				61547D0AD755DC1780FA7614 /* main.m */,
+				61547412387D83E9D11A3C3C /* TickTock.h */,
+				61547D4F8E3E7F539F439F97 /* TickTock.m */,
+				61547D95546B4F37F7776E06 /* Helper.h */,
+				61547859220880C63D5DD2AA /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		61547C0E4831CE82A6507D14 /* Leak-Sample */ = {
+		61547C2108DA1C197479D180 /* JPJSON Samples */ = {
 			isa = PBXGroup;
 			children = (
-				615478CCC8E5F0200DE45644 /* Supporting Files */,
-				615477EDAFB7A64A35CD94DE /* Images.xcassets */,
-				615473991D32EBE703235E58 /* LaunchScreen.xib */,
-				6154720899AF5D5EAB2E8B78 /* AppDelegate.h */,
-				61547126E574A942FA96A78E /* AppDelegate.m */,
-				6154756CDDCB3B8FF4F9D5EC /* Main.storyboard */,
-				61547C0FF4238BFC0020C737 /* ViewController.h */,
-				6154769908B83294A2CB5B6B /* ViewController.m */,
+				6154733B410D932A3541F123 /* ViewControllerJSON.h */,
+				61547C821099AC9EFCBB8F22 /* ViewControllerJSON.m */,
+				61547A853B1FB88E1338C5DA /* SampleSemanticAction.h */,
+				61547331AB90D54C9E564B00 /* SampleSemanticAction.m */,
 			);
-			path = "Leak-Sample";
+			path = "JPJSON Samples";
 			sourceTree = "<group>";
 		};
 		61547E358DEFC8314FC11E97 = {
 			isa = PBXGroup;
 			children = (
+				29612A5F1A17773F0082BD02 /* libjson-iOS.a */,
 				61547277CE70710583A34EFF /* Products */,
-				61547C0E4831CE82A6507D14 /* Leak-Sample */,
+				6154714083A128453AFEE931 /* Leak-Sample */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,9 +155,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				615475B4D7EEE431B44B1262 /* Images.xcassets in Resources */,
-				61547752552071B822FF37A8 /* LaunchScreen.xib in Resources */,
-				6154738A1D9E38732BD25B4A /* Main.storyboard in Resources */,
+				615473CA8638A6455A5ECE26 /* Images.xcassets in Resources */,
+				61547809C82CC5AB03D5820F /* LaunchScreen.xib in Resources */,
+				615474E8076EE77764BBF46B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,27 +168,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				615470091B1373F1882C48FB /* main.m in Sources */,
-				6154786BDA3DE194A211DDD9 /* AppDelegate.m in Sources */,
-				6154730759CD0A6A9FB9F993 /* ViewController.m in Sources */,
+				615477C541567F2359A9E059 /* main.m in Sources */,
+				61547D6EA4C598BDC962EC5A /* AppDelegate.m in Sources */,
+				6154751DE7CB55FF91C5FE89 /* ViewControllerJSON.m in Sources */,
+				615472586DB0C225710CBE13 /* SampleSemanticAction.m in Sources */,
+				6154778F5DC88D28AD0F3CF4 /* TickTock.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		615473991D32EBE703235E58 /* LaunchScreen.xib */ = {
+		615474C7114A688255F857BA /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				61547ADB0C575710F204E104 /* Base */,
+				6154727EE291713EE9273AFD /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
-		6154756CDDCB3B8FF4F9D5EC /* Main.storyboard */ = {
+		61547C30DCA4E5C65B0BC3B0 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				61547EE7515FA1648F527F5D /* Base */,
+				615472843F433428A2171F4D /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -174,9 +202,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "Leak-Sample/PrefixHeader.pch";
 				INFOPLIST_FILE = "Leak-Sample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/kirow/Desktop/GitHub,
+					Repo/JPJson/Libraries/iOS,
+					"Libraries/build/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/../JPJson/Source/json/ObjC/\"";
 			};
 			name = Debug;
 		};
@@ -184,9 +224,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "Leak-Sample/PrefixHeader.pch";
 				INFOPLIST_FILE = "Leak-Sample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/kirow/Desktop/GitHub,
+					Repo/JPJson/Libraries/iOS,
+					"Libraries/build/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/../JPJson/Source/json/ObjC/\"";
 			};
 			name = Release;
 		};

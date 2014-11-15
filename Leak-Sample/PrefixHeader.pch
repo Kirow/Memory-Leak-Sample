@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PrefixHeader.pch
 //  Leak-Sample
 //
 //  Created by Kirow on 15.11.14.
@@ -7,10 +7,4 @@
 //
 
 
-#import <UIKit/UIKit.h>
-
-
-@interface ViewController : UIViewController
-
-
-@end
+#import "Helper.h"

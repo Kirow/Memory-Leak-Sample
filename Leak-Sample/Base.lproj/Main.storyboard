@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--View ControllerJSON-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewControllerJSON" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -15,11 +16,68 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Iteration: 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pFf-Bv-8D3">
+                                <rect key="frame" x="259" y="20" width="82" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Size: 120586" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="taA-nE-yJA">
+                                <rect key="frame" x="230" y="60" width="141" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="DJ8-Zg-7ud">
+                                <rect key="frame" x="60" y="299" width="480" height="2"/>
+                            </progressView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C1b-34-7na">
+                                <rect key="frame" x="287" y="265" width="27" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o8R-Rr-mZG">
+                                <rect key="frame" x="250" y="316" width="101" height="30"/>
+                                <color key="backgroundColor" red="0.21256513864421006" green="0.57068854741142228" blue="0.99215686270000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="2Ry-bP-m60"/>
+                                    <constraint firstAttribute="width" constant="101" id="tgZ-sF-ZWD"/>
+                                </constraints>
+                                <state key="normal" title="Start">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendRequest:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="q13-Mo-Jat"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pFf-Bv-8D3" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="0Xp-pX-umd"/>
+                            <constraint firstItem="DJ8-Zg-7ud" firstAttribute="width" secondItem="kh9-bI-dsS" secondAttribute="width" multiplier="0.8" id="2mi-tZ-Zv0"/>
+                            <constraint firstItem="o8R-Rr-mZG" firstAttribute="centerX" secondItem="DJ8-Zg-7ud" secondAttribute="centerX" id="7wL-aB-yzG"/>
+                            <constraint firstAttribute="centerY" secondItem="DJ8-Zg-7ud" secondAttribute="centerY" id="CwD-Ya-Ol4"/>
+                            <constraint firstItem="DJ8-Zg-7ud" firstAttribute="top" secondItem="C1b-34-7na" secondAttribute="bottom" constant="13" id="G8R-Qq-DDD"/>
+                            <constraint firstItem="taA-nE-yJA" firstAttribute="centerX" secondItem="pFf-Bv-8D3" secondAttribute="centerX" id="GWU-q3-uPa"/>
+                            <constraint firstAttribute="centerX" secondItem="DJ8-Zg-7ud" secondAttribute="centerX" id="IaT-hW-5Hl"/>
+                            <constraint firstAttribute="centerX" secondItem="pFf-Bv-8D3" secondAttribute="centerX" id="q5D-Yh-4Tn"/>
+                            <constraint firstItem="taA-nE-yJA" firstAttribute="top" secondItem="pFf-Bv-8D3" secondAttribute="bottom" constant="19" id="rpw-BZ-d3M"/>
+                            <constraint firstItem="DJ8-Zg-7ud" firstAttribute="centerX" secondItem="C1b-34-7na" secondAttribute="centerX" id="tyB-cw-GJY"/>
+                            <constraint firstItem="o8R-Rr-mZG" firstAttribute="top" secondItem="DJ8-Zg-7ud" secondAttribute="bottom" constant="15" id="y9m-NI-0kt"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="iterationLabel" destination="pFf-Bv-8D3" id="IMz-yB-WkK"/>
+                        <outlet property="progressLabel" destination="C1b-34-7na" id="q6h-zF-m2S"/>
+                        <outlet property="progressView" destination="DJ8-Zg-7ud" id="8hv-EN-Kf4"/>
+                        <outlet property="sizeLabel" destination="taA-nE-yJA" id="Xq1-VQ-6h2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="405" y="435"/>
         </scene>
     </scenes>
 </document>
